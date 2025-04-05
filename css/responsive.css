@@ -1,4 +1,10 @@
 /* Psychoera - HTML Template */
+@media (max-width: 992px) {
+    .appointment {
+      display: none;
+    }
+  }
+  
 
 @media only screen and (max-width: 1680px) {
     .contruct-info .text-holder {
@@ -317,9 +323,10 @@
 		display:block;
 		text-align:right;
 		width:100%;
-		padding: 45px 0px 20px;
-		right:0px;
+		padding: 30px 0px 20px;
+		right:-310px;
 		z-index:12;
+        top: -55px;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle{

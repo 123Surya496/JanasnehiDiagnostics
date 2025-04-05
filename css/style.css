@@ -218,7 +218,7 @@ ul,li{
 /* section padding */
 
 .sp-one {
-	padding: 100px 0 80px;
+	padding: 0px 0 50px;
 }
 
 .sp-two {
@@ -230,7 +230,7 @@ ul,li{
 }
 
 .sp-four {
-	padding: 100px 0 100px;
+	padding: 0px 0 0px;
 }
 
 .sp-five {
@@ -2330,23 +2330,12 @@ img{
 	border-color:#eb5310;	
 }
 
-.main-header .search-panel .search-btn{
-	position:absolute;
-	right:0px;
-	top:0px;
-	width:40px;
-	height:40px;
-	text-align:center;
-	color:#555555;
-	font-size:12px;
-	background:none;
-	cursor:pointer;
-}
-.main-header .btn-holder {
+
+/* .main-header .btn-holder {
     position: relative;
     top: 43px;
     left: 40px;
-}
+} */
 
 .main-header .btn-holder a {
     background: #004E9E;
@@ -2369,7 +2358,11 @@ img{
 }
 
 
-
+.appointment{
+    position: absolute;
+     top: 40px;
+      right: 8px;
+}
 
 
 
@@ -2836,7 +2829,7 @@ img{
  
 .our-Approach {
     position: relative;
-    padding-bottom: 119px;
+    padding-bottom: 50px;
 }
 
 .our-Approach .fact-counter-area b {
@@ -3136,7 +3129,7 @@ img{
     position: relative;
     background-position: center;
     background-size: cover;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 20px;
     z-index: 1;
 }
@@ -4127,7 +4120,7 @@ background-color: rgba(45, 49, 52, 0.6);
 .brand-area {
     position: relative;
     overflow: hidden;
-    padding-bottom: 90px;
+    padding-bottom: 10px;
 }
 
 .brand-area .brand .owl-stage-outer{
@@ -4168,8 +4161,8 @@ background-color: rgba(45, 49, 52, 0.6);
 ***/
 
 .contruct-info {
-    padding-top: 60px;
-    padding-bottom: 58px;
+    padding-top: 40px;
+    padding-bottom: 5px;
 }
 
 .contruct-info .text-holder {
@@ -4239,8 +4232,8 @@ background-color: rgba(45, 49, 52, 0.6);
 .footer-area {
     position: relative;
     background: #2F2F2F;
-    padding-bottom: 82px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .single-footer-widget .footer-logo {
